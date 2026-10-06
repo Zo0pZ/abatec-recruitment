@@ -5,7 +5,7 @@ description: "Specialist recruitment across Engineering, Industrial, Civil Engin
 ---
 <header class="page-header">
   <div class="container">
-    <p class="breadcrumb"><a href="/">Home</a> / <a href="/for-clients/">For Clients</a> / Sector Expertise</p>
+    <p class="breadcrumb"><a href="{{ '/' | url }}">Home</a> / <a href="{{ '/for-clients/' | url }}">For Clients</a> / Sector Expertise</p>
     <span class="eyebrow">Sector Expertise</span>
     <h1>Four sectors. One consistent standard.</h1>
     <p>Our consultants work within a single specialism, so they speak your technical language and already know where the right candidates are.</p>
@@ -27,8 +27,8 @@ description: "Specialist recruitment across Engineering, Industrial, Civil Engin
           {% endfor %}
         </ul>
         <div class="hero__actions" style="margin-top:1.5rem;">
-          <a class="btn btn--secondary btn--small" href="/for-candidates/jobs/?sector={{ sector.name | urlencode }}">View {{ sector.name }} roles</a>
-          <a class="btn btn--ghost btn--small" href="/contact/">Brief us on a vacancy</a>
+          <a class="btn btn--secondary btn--small" href="{{ '/for-candidates/jobs/' | url }}?sector={{ sector.name | urlencode }}">View {{ sector.name }} roles</a>
+          <a class="btn btn--ghost btn--small" href="{{ '/contact/' | url }}">Brief us on a vacancy</a>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ description: "Specialist recruitment across Engineering, Industrial, Civil Engin
         <h2>Don't see your sector listed?</h2>
         <p>We regularly flex into adjacent disciplines — talk to us about your specific brief.</p>
       </div>
-      <a class="btn btn--primary" href="/contact/">Get in touch</a>
+      <a class="btn btn--primary" href="{{ '/contact/' | url }}">Get in touch</a>
     </div>
   </div>
 </section>

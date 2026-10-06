@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__logo" href="/" aria-label="{{ site.name }} home">
+    <a class="site-header__logo" href="{{ '/' | url }}" aria-label="{{ site.name }} home">
       <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
         <rect x="2" y="18" width="6" height="16" fill="#C9A227"/>
         <rect x="11" y="10" width="6" height="24" fill="#E7EAEE"/>
@@ -18,11 +18,11 @@
       <ul class="site-nav__list" id="primary-nav">
         {% for item in site.primaryNav %}
         <li class="site-nav__item{% if item.children %} has-children{% endif %}">
-          <a href="{{ item.url }}">{{ item.label }}</a>
+          <a href="{{ item.url | url }}">{{ item.label }}</a>
           {% if item.children %}
           <ul class="site-nav__submenu">
             {% for child in item.children %}
-            <li><a href="{{ child.url }}">{{ child.label }}</a></li>
+            <li><a href="{{ child.url | url }}">{{ child.label }}</a></li>
             {% endfor %}
           </ul>
           {% endif %}
@@ -33,7 +33,7 @@
 
     <div class="site-header__actions">
       <a class="btn btn--ghost btn--small" href="tel:{{ site.phoneLink }}">{{ site.phone }}</a>
-      <a class="btn btn--primary btn--small" href="/for-candidates/register/">Register your CV</a>
+      <a class="btn btn--primary btn--small" href="{{ '/for-candidates/register/' | url }}">Register your CV</a>
     </div>
   </div>
 </header>

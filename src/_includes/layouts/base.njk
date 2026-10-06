@@ -12,11 +12,11 @@
   <meta property="og:description" content="{{ description or site.strapline }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#0b1b2b">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{ '/favicon.svg' | url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,6 +48,6 @@
     {{ content | safe }}
   </main>
   {% include "partials/footer.njk" %}
-  <script src="/js/main.js" defer></script>
+  <script src="{{ '/js/main.js' | url }}" defer></script>
 </body>
 </html>

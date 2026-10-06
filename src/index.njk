@@ -11,8 +11,8 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
         <h1>The architecture of talent, built for the UK South West.</h1>
         <p class="lede">Abatec is a multi-award-winning specialist recruitment partner, connecting elite engineering, industrial, civil and IT talent with the region's most ambitious employers.</p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="/for-clients/">I'm hiring talent</a>
-          <a class="btn btn--ghost btn--on-dark" href="/for-candidates/jobs/">I'm looking for a role</a>
+          <a class="btn btn--primary" href="{{ '/for-clients/' | url }}">I'm hiring talent</a>
+          <a class="btn btn--ghost btn--on-dark" href="{{ '/for-candidates/jobs/' | url }}">I'm looking for a role</a>
         </div>
       </div>
       <div class="hero__art" aria-hidden="true"></div>
@@ -25,12 +25,12 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
     <div class="path-card path-card--navy">
       <h3>For Clients</h3>
       <p>Proven delivery for tier-one contractors and growing SMEs alike, backed by REC and Constructionline accreditation.</p>
-      <a class="btn btn--primary btn--small" href="/for-clients/">Explore our services</a>
+      <a class="btn btn--primary btn--small" href="{{ '/for-clients/' | url }}">Explore our services</a>
     </div>
     <div class="path-card">
       <h3>For Candidates</h3>
       <p>Mobile-first job search, honest career advice, and a team that treats your next move like it matters — because it does.</p>
-      <a class="btn btn--secondary btn--small" href="/for-candidates/jobs/">Search live roles</a>
+      <a class="btn btn--secondary btn--small" href="{{ '/for-candidates/jobs/' | url }}">Search live roles</a>
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
       </div>
       {% endfor %}
     </div>
-    <p class="text-center" style="margin-top:2rem;"><a class="btn btn--ghost" href="/for-clients/sectors/">View all sector expertise</a></p>
+    <p class="text-center" style="margin-top:2rem;"><a class="btn btn--ghost" href="{{ '/for-clients/sectors/' | url }}">View all sector expertise</a></p>
   </div>
 </section>
 
@@ -78,7 +78,7 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
         </div>
         <h3>{{ study.title }}</h3>
         <p>{{ study.result }}</p>
-        <a class="btn btn--ghost btn--small" href="/for-clients/case-studies/#{{ study.slug }}">Read the case study</a>
+        <a class="btn btn--ghost btn--small" href="{{ '/for-clients/case-studies/' | url }}#{{ study.slug }}">Read the case study</a>
       </div>
       {% endfor %}
     </div>
@@ -93,8 +93,8 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
         <p>Talk to a consultant today, or register your CV to be first in line for new roles.</p>
       </div>
       <div class="hero__actions" style="margin-top:0;">
-        <a class="btn btn--primary" href="/contact/">Request a consultation</a>
-        <a class="btn btn--ghost btn--on-dark" href="/for-candidates/register/">Register your CV</a>
+        <a class="btn btn--primary" href="{{ '/contact/' | url }}">Request a consultation</a>
+        <a class="btn btn--ghost btn--on-dark" href="{{ '/for-candidates/register/' | url }}">Register your CV</a>
       </div>
     </div>
   </div>

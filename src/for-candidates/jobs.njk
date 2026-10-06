@@ -5,7 +5,7 @@ description: "Search live engineering, industrial, civil and IT vacancies across
 ---
 <header class="page-header">
   <div class="container">
-    <p class="breadcrumb"><a href="/">Home</a> / <a href="/for-candidates/jobs/">For Candidates</a> / Job Search</p>
+    <p class="breadcrumb"><a href="{{ '/' | url }}">Home</a> / <a href="{{ '/for-candidates/jobs/' | url }}">For Candidates</a> / Job Search</p>
     <span class="eyebrow">For Candidates</span>
     <h1>Find your next role.</h1>
     <p>{{ jobs.length }} live vacancies across engineering, industrial, civil and IT — filter by sector, location, contract type or keyword.</p>
@@ -56,7 +56,7 @@ description: "Search live engineering, industrial, civil and IT vacancies across
 
     <div class="job-results__meta">
       <span data-job-count>{{ jobs.length }} roles found</span>
-      <span>Updated weekly · can't see the right role? <a href="/for-candidates/register/" style="color:var(--amber-500);font-weight:600;">Register your CV</a></span>
+      <span>Updated weekly · can't see the right role? <a href="{{ '/for-candidates/register/' | url }}" style="color:var(--amber-500);font-weight:600;">Register your CV</a></span>
     </div>
 
     {% for job in jobs %}
@@ -84,7 +84,7 @@ description: "Search live engineering, industrial, civil and IT vacancies across
             {{ job.salaryMin | currency }}&ndash;{{ job.salaryMax | currency }}/day
           {% endif %}
         </p>
-        <a class="btn btn--secondary btn--small" href="/for-candidates/register/?ref={{ job.ref }}">Quick Apply</a>
+        <a class="btn btn--secondary btn--small" href="{{ '/for-candidates/register/' | url }}?ref={{ job.ref }}">Quick Apply</a>
       </div>
     </article>
     {% endfor %}
@@ -92,7 +92,7 @@ description: "Search live engineering, industrial, civil and IT vacancies across
     <div class="job-empty" data-job-empty>
       <h3>No roles match those filters yet.</h3>
       <p>Try widening your search, or register your CV so we can reach out when the right role comes in.</p>
-      <a class="btn btn--primary" href="/for-candidates/register/">Register your CV</a>
+      <a class="btn btn--primary" href="{{ '/for-candidates/register/' | url }}">Register your CV</a>
     </div>
   </div>
 </section>
@@ -104,7 +104,7 @@ description: "Search live engineering, industrial, civil and IT vacancies across
         <h2>Not ready to apply, but want first look at new roles?</h2>
         <p>Register your CV once and we'll match you to relevant vacancies as they land.</p>
       </div>
-      <a class="btn btn--primary" href="/for-candidates/register/">Register your CV</a>
+      <a class="btn btn--primary" href="{{ '/for-candidates/register/' | url }}">Register your CV</a>
     </div>
   </div>
 </section>
