@@ -14,13 +14,19 @@
   {
     "name": "Civil Engineering",
     "slug": "civil-engineering",
-    "summary": "From site management to structural design, we resource the teams delivering the South West's major infrastructure.",
+    "summary": "From site management to structural design, we resource the teams delivering major infrastructure projects including Hinkley Point C.",
     "roles": ["Site Manager", "Quantity Surveyor", "Structural Engineer", "Civil Engineer"]
   },
   {
-    "name": "IT",
-    "slug": "it",
+    "name": "IT & Digital Services",
+    "slug": "it-digital-services",
     "summary": "Developers, infrastructure engineers and IT leadership for businesses building and scaling digital products.",
     "roles": ["Full-Stack Developer", "DevOps Engineer", "IT Support Engineer", "IT Manager"]
+  },
+  {
+    "name": "Driving",
+    "slug": "driving",
+    "summary": "Licensed drivers across logistics, distribution and plant operation, fully compliant and ready to work.",
+    "roles": ["LGV Driver", "Van Driver", "Plant Operator", "Transport Supervisor"]
   }
 ]

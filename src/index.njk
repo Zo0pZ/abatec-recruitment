@@ -7,9 +7,9 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
   <div class="container">
     <div class="hero__inner">
       <div>
-        <span class="eyebrow">30 years of excellence</span>
-        <h1>The architecture of talent, built for the UK South West.</h1>
-        <p class="lede">Abatec is a multi-award-winning specialist recruitment partner, connecting elite engineering, industrial, civil and IT talent with the region's most ambitious employers.</p>
+        <span class="eyebrow">30 years of trading</span>
+        <h1>Where industry meets talent.</h1>
+        <p class="lede">Abatec is a multi-award-winning recruitment business, connecting engineering, industrial, civil engineering, IT &amp; digital and driving talent with employers across the South West and South Wales.</p>
         <div class="hero__actions">
           <a class="btn btn--primary" href="{{ '/for-clients/' | url }}">I'm hiring talent</a>
           <a class="btn btn--ghost btn--on-dark" href="{{ '/for-candidates/jobs/' | url }}">I'm looking for a role</a>
@@ -37,10 +37,10 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
 
 <section class="stat-strip">
   <div class="container">
-    <div><strong>30+</strong><span>Years in business</span></div>
-    <div><strong>4,200+</strong><span>Placements made</span></div>
-    <div><strong>96%</strong><span>Client retention</span></div>
-    <div><strong>11</strong><span>Industry awards</span></div>
+    <div><strong>30+</strong><span>Years of trading</span></div>
+    <div><strong>10,000+</strong><span>Jobseekers helped</span></div>
+    <div><strong>5</strong><span>Specialist sectors</span></div>
+    <div><strong>3</strong><span>Offices: WSM, Bristol &amp; Cardiff</span></div>
   </div>
 </section>
 
@@ -49,9 +49,9 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
     <div class="section-head section-head--center">
       <span class="eyebrow">Sector expertise</span>
       <h2>Deep specialism, not generalist guesswork.</h2>
-      <p>Four sectors, one consistent standard of delivery.</p>
+      <p>Five sectors, one consistent standard of delivery.</p>
     </div>
-    <div class="grid grid--4">
+    <div class="grid grid--3">
       {% for sector in sectors %}
       <div class="sector-card">
         <h3>{{ sector.name }}</h3>
@@ -77,8 +77,8 @@ description: "Abatec is a multi-award-winning specialist recruitment agency plac
           <span class="tag">{{ study.sector }}</span>
         </div>
         <h3>{{ study.title }}</h3>
-        <p>{{ study.result }}</p>
-        <a class="btn btn--ghost btn--small" href="{{ '/for-clients/case-studies/' | url }}#{{ study.slug }}">Read the case study</a>
+        <p>{{ study.summary }}</p>
+        <a class="btn btn--ghost btn--small" href="{{ '/for-clients/case-studies/' | url }}#{{ study.slug }}">Read more</a>
       </div>
       {% endfor %}
     </div>

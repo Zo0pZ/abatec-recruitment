@@ -1,27 +1,59 @@
 {
   "name": "Abatec",
-  "tagline": "The Architecture of Talent",
-  "strapline": "Specialist engineering, industrial, civil and IT recruitment across the UK South West.",
-  "foundedYear": 1996,
-  "phone": "01234 567 890",
-  "phoneLink": "+441234567890",
-  "email": "hello@abatec.co.uk",
+  "legalName": "Abatec Recruitment",
+  "tagline": "Connecting Talent, Building Success",
+  "strapline": "Specialist Engineering, Industrial, Civil Engineering, IT & Digital and Driving recruitment across the South West and South Wales.",
+  "foundedYear": 1993,
+  "phone": "01934 635025",
+  "phoneLink": "+441934635025",
+  "email": "mail@abatec.co.uk",
+  "careersEmail": "workforus@abatec.co.uk",
+  "companyNumber": "8495011",
   "address": {
     "line1": "Abatec House",
-    "line2": "Temple Quay",
-    "city": "Bristol",
-    "postcode": "BS1 6DZ",
+    "line2": "Oldmixon Crescent",
+    "city": "Weston-super-Mare",
+    "county": "North Somerset",
+    "postcode": "BS24 9AX",
     "country": "United Kingdom"
   },
+  "offices": [
+    {
+      "name": "Weston-super-Mare (Head Office)",
+      "line1": "Abatec House",
+      "line2": "Oldmixon Crescent",
+      "city": "Weston-super-Mare, North Somerset",
+      "postcode": "BS24 9AX",
+      "phone": "01934 635025"
+    },
+    {
+      "name": "Bristol",
+      "line1": "22/30 South Liberty Lane",
+      "line2": "Bedminster",
+      "city": "Bristol",
+      "postcode": "BS3 2SS",
+      "phone": "0117 9635 219"
+    },
+    {
+      "name": "Cardiff",
+      "line1": "1st Floor, 7 Oak Tree Court",
+      "line2": "Mulberry Drive, Cardiff Gate Business Park",
+      "city": "Cardiff",
+      "postcode": "CF23 8RS",
+      "phone": "01934 635025"
+    }
+  ],
   "social": {
-    "linkedin": "https://www.linkedin.com/company/abatec",
-    "twitter": "https://twitter.com/abatecrecruit"
+    "linkedin": "https://www.linkedin.com/company/abatec-recruitment/",
+    "twitter": "https://twitter.com/AbatecRecruit",
+    "facebook": "https://www.facebook.com/AbatecRecruitment",
+    "instagram": "https://www.instagram.com/abatecrecruitment/"
   },
   "accreditations": [
-    { "name": "REC Member", "description": "Recruitment & Employment Confederation" },
-    { "name": "Constructionline Gold", "description": "Verified supplier for construction and engineering" },
-    { "name": "Disability Confident Employer", "description": "Committed to inclusive recruitment practice" },
-    { "name": "Cyber Essentials", "description": "Certified data and information security standard" }
+    { "name": "REC Corporate Member", "description": "Recruitment & Employment Confederation" },
+    { "name": "Constructionline", "description": "Verified supplier for construction and engineering" },
+    { "name": "GLAA Licensed", "description": "Gangmasters and Labour Abuse Authority licence ABA002" },
+    { "name": "Disability Confident Committed", "description": "Committed to inclusive recruitment practice" }
   ],
   "primaryNav": [
     {

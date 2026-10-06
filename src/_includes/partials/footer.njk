@@ -6,6 +6,8 @@
       <ul class="site-footer__social" aria-label="Social media">
         <li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>
         <li><a href="{{ site.social.twitter }}">X / Twitter</a></li>
+        <li><a href="{{ site.social.facebook }}">Facebook</a></li>
+        <li><a href="{{ site.social.instagram }}">Instagram</a></li>
       </ul>
     </div>
 
@@ -44,10 +46,12 @@
       <address>
         {{ site.address.line1 }}<br>
         {{ site.address.line2 }}<br>
-        {{ site.address.city }} {{ site.address.postcode }}
+        {{ site.address.city }}<br>
+        {{ site.address.postcode }}
       </address>
       <p><a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a></p>
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p style="margin-top:0.75rem;font-size:0.85rem;color:var(--slate-500);">Also in Bristol &amp; Cardiff — see <a href="{{ '/contact/' | url }}">Contact</a></p>
     </div>
   </div>
 
@@ -58,8 +62,10 @@
   </div>
 
   <div class="container site-footer__bottom">
-    <p>&copy; {% year %} {{ site.name }} Recruitment Ltd. Est. {{ site.foundedYear }}. All rights reserved.</p>
+    <p>&copy; {% year %} {{ site.legalName }}. Registered in England, company no. {{ site.companyNumber }}.</p>
     <ul>
+      <li><a href="https://abatec.co.uk/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="https://abatec.co.uk/terms-and-conditions/">Terms &amp; Conditions</a></li>
       <li><a href="{{ '/contact/' | url }}">Contact</a></li>
       <li><a href="#main">Back to top</a></li>
     </ul>

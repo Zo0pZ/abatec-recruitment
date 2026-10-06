@@ -1,10 +1,16 @@
 [
-  { "name": "Helen Marchetti", "role": "Managing Director", "sector": "Leadership" },
-  { "name": "Daniel Okafor", "role": "Head of Engineering Recruitment", "sector": "Engineering" },
-  { "name": "Sarah Lindqvist", "role": "Head of Civil Engineering", "sector": "Civil Engineering" },
-  { "name": "Tom Pearce", "role": "Head of Industrial Recruitment", "sector": "Industrial" },
-  { "name": "Priya Chandrasekaran", "role": "Head of IT Recruitment", "sector": "IT" },
-  { "name": "James Fletcher", "role": "Senior Consultant, Civil Engineering", "sector": "Civil Engineering" },
-  { "name": "Megan Osei", "role": "Senior Consultant, Engineering", "sector": "Engineering" },
-  { "name": "Liam Bradshaw", "role": "Operations & Compliance Manager", "sector": "Operations" }
+  { "name": "Richard Buchanan", "role": "Managing Director", "sector": "Leadership" },
+  { "name": "Rob Dyer", "role": "Operations Director", "sector": "Leadership" },
+  { "name": "Darrell Warner", "role": "Finance Director", "sector": "Leadership" },
+  { "name": "David Hughes", "role": "Associate Director", "sector": "Leadership" },
+  { "name": "Frances Alexander", "role": "Recruitment Manager", "sector": "Engineering" },
+  { "name": "Hayley Fisher", "role": "Team Leader, Engineering", "sector": "Engineering" },
+  { "name": "Kelly Evans", "role": "Senior Recruiter, Civil Engineering", "sector": "Civil Engineering" },
+  { "name": "Ben Knight", "role": "Principal Consultant", "sector": "Industrial" },
+  { "name": "Tyler Davies", "role": "Senior Recruitment Consultant", "sector": "Civil Engineering" },
+  { "name": "Laura Lilley", "role": "Senior Recruiter", "sector": "Industrial" },
+  { "name": "Tanya Lazaruk", "role": "Recruitment Consultant", "sector": "Industrial" },
+  { "name": "Denise Hughes", "role": "Payroll Manager", "sector": "Operations" },
+  { "name": "Gemma Poole", "role": "Office Manager", "sector": "Operations" },
+  { "name": "Jarvis", "role": "Chief Morale Officer", "sector": "Office Dog" }
 ]

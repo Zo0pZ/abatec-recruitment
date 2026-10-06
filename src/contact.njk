@@ -25,16 +25,18 @@ description: "Get in touch with Abatec — call, email, or send a consultation r
           <h3>Email us</h3>
           <p><a href="mailto:{{ site.email }}" style="color:var(--amber-500);font-weight:700;">{{ site.email }}</a></p>
         </div>
-        <div class="card">
-          <h3>Visit us</h3>
+        {% for office in site.offices %}
+        <div class="card" style="margin-bottom:1.5rem;">
+          <h3>{{ office.name }}</h3>
           <address style="font-style:normal;color:var(--slate-500);">
-            {{ site.address.line1 }}<br>
-            {{ site.address.line2 }}<br>
-            {{ site.address.city }} {{ site.address.postcode }}<br>
-            {{ site.address.country }}
+            {{ office.line1 }}<br>
+            {{ office.line2 }}<br>
+            {{ office.city }}<br>
+            {{ office.postcode }}
           </address>
-          <div class="hero__art" style="margin-top:1rem;aspect-ratio:16/9;background:var(--slate-100);" role="img" aria-label="Map showing Abatec's office location in Bristol"></div>
+          <p><a href="tel:{{ office.phone }}" style="color:var(--amber-500);font-weight:700;">{{ office.phone }}</a></p>
         </div>
+        {% endfor %}
       </div>
 
       <div class="form-panel">
