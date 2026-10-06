@@ -1,0 +1,58 @@
+{
+  "name": "Abatec",
+  "tagline": "The Architecture of Talent",
+  "strapline": "Specialist engineering, industrial, civil and IT recruitment across the UK South West.",
+  "foundedYear": 1996,
+  "phone": "01234 567 890",
+  "phoneLink": "+441234567890",
+  "email": "hello@abatec.co.uk",
+  "address": {
+    "line1": "Abatec House",
+    "line2": "Temple Quay",
+    "city": "Bristol",
+    "postcode": "BS1 6DZ",
+    "country": "United Kingdom"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/abatec",
+    "twitter": "https://twitter.com/abatecrecruit"
+  },
+  "accreditations": [
+    { "name": "REC Member", "description": "Recruitment & Employment Confederation" },
+    { "name": "Constructionline Gold", "description": "Verified supplier for construction and engineering" },
+    { "name": "Disability Confident Employer", "description": "Committed to inclusive recruitment practice" },
+    { "name": "Cyber Essentials", "description": "Certified data and information security standard" }
+  ],
+  "primaryNav": [
+    {
+      "label": "For Clients",
+      "url": "/for-clients/",
+      "children": [
+        { "label": "Our Services", "url": "/for-clients/" },
+        { "label": "Sector Expertise", "url": "/for-clients/sectors/" },
+        { "label": "Case Studies", "url": "/for-clients/case-studies/" }
+      ]
+    },
+    {
+      "label": "For Candidates",
+      "url": "/for-candidates/jobs/",
+      "children": [
+        { "label": "Job Search", "url": "/for-candidates/jobs/" },
+        { "label": "Candidate Support", "url": "/for-candidates/support/" },
+        { "label": "Register Your CV", "url": "/for-candidates/register/" }
+      ]
+    },
+    {
+      "label": "About Us",
+      "url": "/about/our-story/",
+      "children": [
+        { "label": "Our Story", "url": "/about/our-story/" },
+        { "label": "Meet the Team", "url": "/about/team/" },
+        { "label": "Awards & Accreditations", "url": "/about/awards/" }
+      ]
+    },
+    { "label": "Careers at Abatec", "url": "/careers/" },
+    { "label": "Acquisitions", "url": "/acquisitions/" },
+    { "label": "Contact", "url": "/contact/" }
+  ]
+}

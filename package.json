@@ -1,0 +1,13 @@
+{
+  "name": "abatec-recruitment",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Abatec Digital Transformation — static prototype (Eleventy), designed for a later migration to WordPress.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

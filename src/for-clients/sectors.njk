@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+title: "Sector Expertise"
+description: "Specialist recruitment across Engineering, Industrial, Civil Engineering and IT for employers across the UK South West."
+---
+<header class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/for-clients/">For Clients</a> / Sector Expertise</p>
+    <span class="eyebrow">Sector Expertise</span>
+    <h1>Four sectors. One consistent standard.</h1>
+    <p>Our consultants work within a single specialism, so they speak your technical language and already know where the right candidates are.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    {% for sector in sectors %}
+    <div class="case-study" id="{{ sector.slug }}">
+      <div class="case-study__figure">{{ sector.name }}</div>
+      <div>
+        <span class="eyebrow">{{ sector.name }}</span>
+        <h2>{{ sector.summary }}</h2>
+        <p>Typical roles we resource:</p>
+        <ul class="list-check">
+          {% for role in sector.roles %}
+          <li>{{ role }}</li>
+          {% endfor %}
+        </ul>
+        <div class="hero__actions" style="margin-top:1.5rem;">
+          <a class="btn btn--secondary btn--small" href="/for-candidates/jobs/?sector={{ sector.name | urlencode }}">View {{ sector.name }} roles</a>
+          <a class="btn btn--ghost btn--small" href="/contact/">Brief us on a vacancy</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section--slate">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Don't see your sector listed?</h2>
+        <p>We regularly flex into adjacent disciplines — talk to us about your specific brief.</p>
+      </div>
+      <a class="btn btn--primary" href="/contact/">Get in touch</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+[
+  {
+    "client": "Kier",
+    "slug": "kier",
+    "title": "Resourcing a £120m highways programme at pace",
+    "sector": "Civil Engineering",
+    "tags": ["Highways", "Tier 1 Contractor", "Volume Hiring"],
+    "challenge": "Kier needed to scale a regional highways team from 12 to 40 skilled site and engineering staff within a single quarter, without compromising on compliance or culture fit.",
+    "approach": "Abatec embedded a dedicated account team on-site, built a compliant temp-to-perm talent pipeline, and ran weekly calibration sessions with Kier's regional director.",
+    "result": "38 placements made within 11 weeks, 94% retention at the 6-month mark, and a preferred supplier agreement now in its fourth year.",
+    "metrics": [
+      { "value": "38", "label": "Placements in 11 weeks" },
+      { "value": "94%", "label": "6-month retention" },
+      { "value": "4 yrs", "label": "Preferred supplier status" }
+    ]
+  },
+  {
+    "client": "Balfour Beatty",
+    "slug": "balfour-beatty",
+    "title": "Specialist engineering talent for a live rail upgrade",
+    "sector": "Engineering",
+    "tags": ["Rail", "Specialist Engineering", "Compliance-Critical"],
+    "challenge": "A live rail electrification project required engineers with rare combined signalling and civils experience, under strict security vetting timelines.",
+    "approach": "Abatec's engineering desk tapped a pre-vetted specialist network, fast-tracking BPSS and security clearance in parallel with technical screening.",
+    "result": "6 senior engineers placed inside clearance deadlines, zero project delay, and a 100% offer-acceptance rate.",
+    "metrics": [
+      { "value": "6", "label": "Senior engineers placed" },
+      { "value": "100%", "label": "Offer-acceptance rate" },
+      { "value": "0", "label": "Days of project delay" }
+    ]
+  }
+]

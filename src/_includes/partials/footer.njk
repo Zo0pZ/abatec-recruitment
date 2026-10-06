@@ -1,0 +1,67 @@
+<footer class="site-footer">
+  <div class="container site-footer__top">
+    <div class="site-footer__brand">
+      <span class="site-footer__wordmark">Abatec</span>
+      <p>{{ site.strapline }}</p>
+      <ul class="site-footer__social" aria-label="Social media">
+        <li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>
+        <li><a href="{{ site.social.twitter }}">X / Twitter</a></li>
+      </ul>
+    </div>
+
+    <nav class="site-footer__col" aria-label="For clients">
+      <h2>For Clients</h2>
+      <ul>
+        <li><a href="/for-clients/">Our Services</a></li>
+        <li><a href="/for-clients/sectors/">Sector Expertise</a></li>
+        <li><a href="/for-clients/case-studies/">Case Studies</a></li>
+        <li><a href="/contact/">Request a Consultation</a></li>
+      </ul>
+    </nav>
+
+    <nav class="site-footer__col" aria-label="For candidates">
+      <h2>For Candidates</h2>
+      <ul>
+        <li><a href="/for-candidates/jobs/">Job Search</a></li>
+        <li><a href="/for-candidates/support/">Candidate Support</a></li>
+        <li><a href="/for-candidates/register/">Register Your CV</a></li>
+      </ul>
+    </nav>
+
+    <nav class="site-footer__col" aria-label="Company">
+      <h2>Company</h2>
+      <ul>
+        <li><a href="/about/our-story/">Our Story</a></li>
+        <li><a href="/about/team/">Meet the Team</a></li>
+        <li><a href="/about/awards/">Awards &amp; Accreditations</a></li>
+        <li><a href="/careers/">Careers at Abatec</a></li>
+        <li><a href="/acquisitions/">Acquisitions</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-footer__col">
+      <h2>Get in touch</h2>
+      <address>
+        {{ site.address.line1 }}<br>
+        {{ site.address.line2 }}<br>
+        {{ site.address.city }} {{ site.address.postcode }}
+      </address>
+      <p><a href="tel:{{ site.phoneLink }}">{{ site.phone }}</a></p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+  </div>
+
+  <div class="site-footer__accreditations container">
+    {% for a in site.accreditations %}
+    <span class="accreditation-badge" title="{{ a.description }}">{{ a.name }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="container site-footer__bottom">
+    <p>&copy; {% year %} {{ site.name }} Recruitment Ltd. Est. {{ site.foundedYear }}. All rights reserved.</p>
+    <ul>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="#main">Back to top</a></li>
+    </ul>
+  </div>
+</footer>

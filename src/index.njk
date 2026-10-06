@@ -1,0 +1,101 @@
+---
+layout: layouts/base.njk
+title: "Engineering, Industrial, Civil & IT Recruitment"
+description: "Abatec is a multi-award-winning specialist recruitment agency placing elite engineering, industrial, civil and IT talent across the UK South West."
+---
+<section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <div>
+        <span class="eyebrow">30 years of excellence</span>
+        <h1>The architecture of talent, built for the UK South West.</h1>
+        <p class="lede">Abatec is a multi-award-winning specialist recruitment partner, connecting elite engineering, industrial, civil and IT talent with the region's most ambitious employers.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/for-clients/">I'm hiring talent</a>
+          <a class="btn btn--ghost btn--on-dark" href="/for-candidates/jobs/">I'm looking for a role</a>
+        </div>
+      </div>
+      <div class="hero__art" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="path-cards">
+    <div class="path-card path-card--navy">
+      <h3>For Clients</h3>
+      <p>Proven delivery for tier-one contractors and growing SMEs alike, backed by REC and Constructionline accreditation.</p>
+      <a class="btn btn--primary btn--small" href="/for-clients/">Explore our services</a>
+    </div>
+    <div class="path-card">
+      <h3>For Candidates</h3>
+      <p>Mobile-first job search, honest career advice, and a team that treats your next move like it matters — because it does.</p>
+      <a class="btn btn--secondary btn--small" href="/for-candidates/jobs/">Search live roles</a>
+    </div>
+  </div>
+</div>
+
+<section class="stat-strip">
+  <div class="container">
+    <div><strong>30+</strong><span>Years in business</span></div>
+    <div><strong>4,200+</strong><span>Placements made</span></div>
+    <div><strong>96%</strong><span>Client retention</span></div>
+    <div><strong>11</strong><span>Industry awards</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow">Sector expertise</span>
+      <h2>Deep specialism, not generalist guesswork.</h2>
+      <p>Four sectors, one consistent standard of delivery.</p>
+    </div>
+    <div class="grid grid--4">
+      {% for sector in sectors %}
+      <div class="sector-card">
+        <h3>{{ sector.name }}</h3>
+        <p>{{ sector.summary }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="text-center" style="margin-top:2rem;"><a class="btn btn--ghost" href="/for-clients/sectors/">View all sector expertise</a></p>
+  </div>
+</section>
+
+<section class="section--slate">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Proof, not promises</span>
+      <h2>Trusted by the names shaping the South West's infrastructure.</h2>
+    </div>
+    <div class="grid grid--2">
+      {% for study in caseStudies %}
+      <div class="card">
+        <div class="case-study__tags">
+          <span class="tag tag--amber">{{ study.client }}</span>
+          <span class="tag">{{ study.sector }}</span>
+        </div>
+        <h3>{{ study.title }}</h3>
+        <p>{{ study.result }}</p>
+        <a class="btn btn--ghost btn--small" href="/for-clients/case-studies/#{{ study.slug }}">Read the case study</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Ready to build your team — or your next career move?</h2>
+        <p>Talk to a consultant today, or register your CV to be first in line for new roles.</p>
+      </div>
+      <div class="hero__actions" style="margin-top:0;">
+        <a class="btn btn--primary" href="/contact/">Request a consultation</a>
+        <a class="btn btn--ghost btn--on-dark" href="/for-candidates/register/">Register your CV</a>
+      </div>
+    </div>
+  </div>
+</section>

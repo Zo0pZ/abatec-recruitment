@@ -1,0 +1,104 @@
+---
+layout: layouts/base.njk
+title: "Our Services"
+description: "Temporary, permanent and contract recruitment solutions for engineering, industrial, civil and IT employers across the UK South West."
+---
+<header class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / For Clients</p>
+    <span class="eyebrow">For Clients</span>
+    <h1>Recruitment solutions built around how your business actually hires.</h1>
+    <p>Whether you need a single specialist next week or a full project team by next quarter, Abatec brings 30 years of sector-specific delivery to every brief.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Services</span>
+      <h2>Temporary &amp; permanent recruitment, done properly.</h2>
+    </div>
+    <div class="grid grid--2">
+      <div class="card">
+        <div class="card__icon">P</div>
+        <h3>Permanent Recruitment</h3>
+        <p>End-to-end search and selection for business-critical hires, from first brief to offer management. We run a rigorous, sector-literate screening process so you only meet candidates who can genuinely do the job.</p>
+        <ul class="list-check" style="margin-top:1.25rem;">
+          <li>Dedicated consultant per sector, not a generalist account manager</li>
+          <li>Competency-based screening against your technical requirements</li>
+          <li>Market-rate benchmarking included with every brief</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card__icon">T</div>
+        <h3>Temporary &amp; Contract Staffing</h3>
+        <p>Rapid access to a vetted, compliant workforce for project peaks, cover, and flexible capacity — backed by robust right-to-work, CSCS and insurance checks on every worker.</p>
+        <ul class="list-check" style="margin-top:1.25rem;">
+          <li>Same-week turnaround for site-ready operational roles</li>
+          <li>Full payroll, compliance and insurance management</li>
+          <li>Temp-to-perm pathways built in from day one</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section--slate">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How we work</span>
+      <h2>A process built for accuracy, not volume.</h2>
+    </div>
+    <div class="grid grid--4">
+      <div class="card">
+        <div class="card__icon">1</div>
+        <h3>Brief &amp; Benchmark</h3>
+        <p>We scope the role, the team it sits in, and the market rate — so expectations are right from day one.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">2</div>
+        <h3>Search &amp; Screen</h3>
+        <p>Sector-specialist consultants source and technically screen candidates against your exact requirements.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">3</div>
+        <h3>Shortlist &amp; Interview</h3>
+        <p>A tight, qualified shortlist with full interview coordination and feedback management.</p>
+      </div>
+      <div class="card">
+        <div class="card__icon">4</div>
+        <h3>Offer &amp; Onboard</h3>
+        <p>Offer management, reference checks and compliance handled, plus check-ins through probation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow">Accreditations</span>
+      <h2>Compliance you can put in front of procurement.</h2>
+    </div>
+    <div class="grid grid--4">
+      {% for a in site.accreditations %}
+      <div class="card text-center">
+        <h3>{{ a.name }}</h3>
+        <p>{{ a.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Tell us what you need to build.</h2>
+        <p>A 20-minute call is usually all it takes to scope your next hire, or your next project team.</p>
+      </div>
+      <a class="btn btn--primary" href="/contact/">Request a consultation</a>
+    </div>
+  </div>
+</section>

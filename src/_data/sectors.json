@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Engineering",
+    "slug": "engineering",
+    "summary": "Mechanical, electrical and design engineering talent for manufacturers, OEMs and consultancies across the South West.",
+    "roles": ["Design Engineer", "Mechanical Engineer", "Electrical Engineer", "Project Engineer"]
+  },
+  {
+    "name": "Industrial",
+    "slug": "industrial",
+    "summary": "Production, maintenance and operations specialists keeping manufacturing and logistics sites running at full capacity.",
+    "roles": ["Maintenance Technician", "Production Supervisor", "Health & Safety Advisor", "Operations Manager"]
+  },
+  {
+    "name": "Civil Engineering",
+    "slug": "civil-engineering",
+    "summary": "From site management to structural design, we resource the teams delivering the South West's major infrastructure.",
+    "roles": ["Site Manager", "Quantity Surveyor", "Structural Engineer", "Civil Engineer"]
+  },
+  {
+    "name": "IT",
+    "slug": "it",
+    "summary": "Developers, infrastructure engineers and IT leadership for businesses building and scaling digital products.",
+    "roles": ["Full-Stack Developer", "DevOps Engineer", "IT Support Engineer", "IT Manager"]
+  }
+]

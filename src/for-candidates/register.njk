@@ -1,0 +1,91 @@
+---
+layout: layouts/base.njk
+title: "Register Your CV"
+description: "Register your CV with Abatec and get matched to engineering, industrial, civil and IT opportunities across the UK South West."
+---
+<header class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / <a href="/for-candidates/jobs/">For Candidates</a> / Register Your CV</p>
+    <span class="eyebrow">For Candidates</span>
+    <h1>Register once. Get matched to every relevant role.</h1>
+    <p>Takes two minutes. A specialist consultant in your sector will review your profile within two working days — your details are never shared without your permission.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid" style="grid-template-columns: 1fr 1.4fr; gap: 3rem; align-items:flex-start;">
+      <div>
+        <h2>Why register with Abatec?</h2>
+        <ul class="list-check">
+          <li>Access to roles we haven't advertised publicly yet</li>
+          <li>A dedicated consultant who understands your sector</li>
+          <li>Confidential by default — nothing shared without your say-so</li>
+          <li>Free CV review and interview preparation</li>
+        </ul>
+        <div class="card" style="margin-top:2rem;background:var(--slate-50);border:none;">
+          <h3>Prefer to talk first?</h3>
+          <p>Call us on <a href="tel:{{ site.phoneLink }}" style="color:var(--amber-500);font-weight:700;">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}" style="color:var(--amber-500);font-weight:700;">{{ site.email }}</a>.</p>
+        </div>
+      </div>
+
+      <div class="form-panel">
+        <div class="form-success" id="register-success" role="status">
+          <strong>Thanks — your CV has been received.</strong> A consultant from our team will be in touch within two working days.
+        </div>
+        <form data-demo-form data-success-target="register-success" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="firstName">First name *</label>
+              <input type="text" id="firstName" name="firstName" required autocomplete="given-name">
+            </div>
+            <div class="field">
+              <label for="lastName">Last name *</label>
+              <input type="text" id="lastName" name="lastName" required autocomplete="family-name">
+            </div>
+            <div class="field">
+              <label for="email">Email address *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="phone">Phone number *</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+            </div>
+            <div class="field">
+              <label for="reg-sector">Sector *</label>
+              <select id="reg-sector" name="sector" required>
+                <option value="" disabled selected>Select your sector</option>
+                {% for sector in sectors %}
+                <option value="{{ sector.name }}">{{ sector.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="field">
+              <label for="reg-location">Preferred location</label>
+              <select id="reg-location" name="location">
+                <option value="">No preference</option>
+                <option value="Bristol">Bristol</option>
+                <option value="Exeter">Exeter</option>
+                <option value="Plymouth">Plymouth</option>
+                <option value="Swindon">Swindon</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="cv">Upload your CV *</label>
+              <div class="field--file">
+                <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                <p class="form-note mt-0">PDF or Word, up to 5MB.</p>
+              </div>
+            </div>
+            <div class="field field--full">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" placeholder="e.g. notice period, salary expectations, roles you're interested in"></textarea>
+            </div>
+          </div>
+          <p class="form-note">By submitting this form you agree to Abatec contacting you about relevant opportunities in line with our privacy policy. We will never share your details with a third party, including your current employer, without your permission.</p>
+          <button class="btn btn--primary btn--block" type="submit" style="margin-top:1.5rem;">Submit my CV</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

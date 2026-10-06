@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+title: "Meet the Team"
+description: "Meet the specialist recruitment consultants behind Abatec's engineering, industrial, civil and IT desks."
+---
+<header class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / About Us / Meet the Team</p>
+    <span class="eyebrow">About Us</span>
+    <h1>The people behind the placements.</h1>
+    <p>Every Abatec consultant specialises in a single sector — so when you speak to us, you're speaking to someone who understands the role, not just the job title.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid grid--4">
+      {% for member in team %}
+      <div class="team-card">
+        <div class="team-card__photo" aria-hidden="true"></div>
+        <h3>{{ member.name }}</h3>
+        <span>{{ member.sector }}</span>
+        <p>{{ member.role }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section--slate">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Thinking about a career in recruitment?</h2>
+        <p>We're always interested in speaking to experienced consultants and ambitious graduates alike.</p>
+      </div>
+      <a class="btn btn--primary" href="/careers/">Careers at Abatec</a>
+    </div>
+  </div>
+</section>

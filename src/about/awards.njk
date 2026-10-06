@@ -1,0 +1,78 @@
+---
+layout: layouts/base.njk
+title: "Awards & Accreditations"
+description: "Abatec's industry awards and professional accreditations, including REC membership and Constructionline Gold status."
+---
+<header class="page-header">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Home</a> / About Us / Awards &amp; Accreditations</p>
+    <span class="eyebrow">About Us</span>
+    <h1>Recognition we've earned, not claimed.</h1>
+    <p>From industry body membership to national recruitment awards, our accreditations are the compliance backbone that lets tier-one contractors and growing SMEs trust us with their critical hires.</p>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Accreditations</span>
+      <h2>Compliance, verified.</h2>
+    </div>
+    <div class="grid grid--4">
+      {% for a in site.accreditations %}
+      <div class="card">
+        <div class="card__icon">✓</div>
+        <h3>{{ a.name }}</h3>
+        <p>{{ a.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section--slate">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Awards</span>
+      <h2>Recognised across the industry</h2>
+    </div>
+    <div class="grid grid--3">
+      <div class="card">
+        <h3>South West Recruitment Agency of the Year</h3>
+        <p>Regional Recruitment Industry Awards, 2023 &amp; 2021</p>
+      </div>
+      <div class="card">
+        <h3>Best Engineering &amp; Construction Recruiter</h3>
+        <p>UK Recruiter Awards, 2022</p>
+      </div>
+      <div class="card">
+        <h3>Excellence in Candidate Care</h3>
+        <p>REC Industry Awards, 2020</p>
+      </div>
+      <div class="card">
+        <h3>Diversity &amp; Inclusion Commendation</h3>
+        <p>Disability Confident Employer Network, 2020</p>
+      </div>
+      <div class="card">
+        <h3>Fastest-Growing Independent Recruiter</h3>
+        <p>South West Business Insider, 2018</p>
+      </div>
+      <div class="card">
+        <h3>Agency of the Year — Industrial</h3>
+        <p>Regional Recruitment Industry Awards, 2017</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>See the delivery behind the awards.</h2>
+        <p>Read how we've applied this track record to live client programmes.</p>
+      </div>
+      <a class="btn btn--primary" href="/for-clients/case-studies/">View case studies</a>
+    </div>
+  </div>
+</section>

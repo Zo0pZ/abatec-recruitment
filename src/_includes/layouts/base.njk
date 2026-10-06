@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} | {{ site.name }}{% else %}{{ site.name }} | {{ site.tagline }}{% endif %}</title>
+  <meta name="description" content="{{ description or site.strapline }}">
+  <link rel="canonical" href="https://www.abatec.co.uk{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:title" content="{% if title %}{{ title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{{ description or site.strapline }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b1b2b">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EmploymentAgency",
+    "name": "{{ site.name }}",
+    "url": "https://www.abatec.co.uk/",
+    "description": "{{ site.strapline }}",
+    "foundingDate": "{{ site.foundedYear }}",
+    "telephone": "{{ site.phoneLink }}",
+    "email": "{{ site.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.address.line1 }}, {{ site.address.line2 }}",
+      "addressLocality": "{{ site.address.city }}",
+      "postalCode": "{{ site.address.postcode }}",
+      "addressCountry": "GB"
+    },
+    "sameAs": ["{{ site.social.linkedin }}", "{{ site.social.twitter }}"]
+  }
+  </script>
+  {% if schema %}
+  <script type="application/ld+json">{{ schema | dump | safe }}</script>
+  {% endif %}
+</head>
+<body class="{{ bodyClass or '' }}">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  {% include "partials/header.njk" %}
+  <main id="main">
+    {{ content | safe }}
+  </main>
+  {% include "partials/footer.njk" %}
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

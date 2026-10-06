@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Senior Civil Engineer",
+    "sector": "Civil Engineering",
+    "location": "Bristol",
+    "contract": "Permanent",
+    "salaryMin": 48000,
+    "salaryMax": 58000,
+    "summary": "Lead design and delivery on major infrastructure schemes for a tier-one contractor, mentoring a team of four.",
+    "ref": "AB-1042"
+  },
+  {
+    "title": "Mechanical Design Engineer",
+    "sector": "Engineering",
+    "location": "Bristol",
+    "contract": "Permanent",
+    "salaryMin": 38000,
+    "salaryMax": 46000,
+    "summary": "Join a precision engineering business supplying the aerospace sector; CAD-led role with progression to principal engineer.",
+    "ref": "AB-1051"
+  },
+  {
+    "title": "Site Manager",
+    "sector": "Civil Engineering",
+    "location": "Exeter",
+    "contract": "Contract",
+    "salaryMin": 300,
+    "salaryMax": 340,
+    "summary": "12-month contract managing a highways resurfacing programme; SMSTS and CSCS required.",
+    "ref": "AB-1058"
+  },
+  {
+    "title": "Industrial Maintenance Technician",
+    "sector": "Industrial",
+    "location": "Swindon",
+    "contract": "Permanent",
+    "salaryMin": 32000,
+    "salaryMax": 37000,
+    "summary": "Shift-based maintenance role across automated production lines for a leading FMCG manufacturer.",
+    "ref": "AB-1063"
+  },
+  {
+    "title": "DevOps Engineer",
+    "sector": "IT",
+    "location": "Bristol",
+    "contract": "Permanent",
+    "salaryMin": 50000,
+    "salaryMax": 62000,
+    "summary": "Own CI/CD and cloud infrastructure for a scaling SaaS business; AWS and Terraform experience essential.",
+    "ref": "AB-1067"
+  },
+  {
+    "title": "Quantity Surveyor",
+    "sector": "Civil Engineering",
+    "location": "Plymouth",
+    "contract": "Permanent",
+    "salaryMin": 40000,
+    "salaryMax": 50000,
+    "summary": "Pre- and post-contract QS role on a portfolio of commercial and residential schemes.",
+    "ref": "AB-1071"
+  },
+  {
+    "title": "Electrical Design Engineer",
+    "sector": "Engineering",
+    "location": "Swindon",
+    "contract": "Permanent",
+    "salaryMin": 42000,
+    "salaryMax": 49000,
+    "summary": "Design LV/HV electrical systems for commercial new-build projects; Amtech and AutoCAD Electrical skills needed.",
+    "ref": "AB-1079"
+  },
+  {
+    "title": "IT Support Engineer",
+    "sector": "IT",
+    "location": "Exeter",
+    "contract": "Temporary",
+    "salaryMin": 150,
+    "salaryMax": 180,
+    "summary": "3-month cover role providing 1st/2nd line support across a 200-seat corporate office.",
+    "ref": "AB-1082"
+  },
+  {
+    "title": "Health & Safety Advisor",
+    "sector": "Industrial",
+    "location": "Bristol",
+    "contract": "Permanent",
+    "salaryMin": 36000,
+    "salaryMax": 43000,
+    "summary": "Group H&S advisor role across three manufacturing sites; NEBOSH Diploma preferred.",
+    "ref": "AB-1088"
+  },
+  {
+    "title": "Structural Engineer",
+    "sector": "Civil Engineering",
+    "location": "Plymouth",
+    "contract": "Permanent",
+    "salaryMin": 39000,
+    "salaryMax": 47000,
+    "summary": "Structural design across residential, education and commercial sectors; Tekla and Robot Structural experience a plus.",
+    "ref": "AB-1091"
+  },
+  {
+    "title": "Production Supervisor",
+    "sector": "Industrial",
+    "location": "Exeter",
+    "contract": "Permanent",
+    "salaryMin": 34000,
+    "salaryMax": 39000,
+    "summary": "Lead a 15-strong production team on a fast-moving manufacturing line, driving lean improvement initiatives.",
+    "ref": "AB-1096"
+  },
+  {
+    "title": "Full-Stack Developer",
+    "sector": "IT",
+    "location": "Bristol",
+    "contract": "Permanent",
+    "salaryMin": 45000,
+    "salaryMax": 55000,
+    "summary": "React/Node developer role within a growing product team serving the logistics sector.",
+    "ref": "AB-1102"
+  }
+]
