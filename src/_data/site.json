@@ -83,7 +83,7 @@
         { "label": "Awards & Accreditations", "url": "/about/awards/" }
       ]
     },
-    { "label": "Careers at Abatec", "url": "/careers/" },
+    { "label": "Careers", "url": "/careers/" },
     { "label": "Acquisitions", "url": "/acquisitions/" },
     { "label": "Contact", "url": "/contact/" }
   ]
